@@ -64,3 +64,9 @@ footer {
 header nav ul li a:hover {
     text-decoration: underline;
 }
+/* Highlight the active page link */
+header nav ul li a.active {
+    color: #ff6347; /* Use a different color to highlight the active page */
+    font-weight: bold;
+    text-decoration: underline;
+}
